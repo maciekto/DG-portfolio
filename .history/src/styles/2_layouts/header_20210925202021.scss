@@ -135,3 +135,10 @@ header {
         }
     }
 }
+@media (min-width: 1600px) {
+    .header {
+        &-Title {
+            font-size: calc($titlePC*2);
+        }
+    }
+}
