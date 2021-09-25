@@ -1,0 +1,20 @@
+.MyWorks {
+    width: 100vw;
+    height: auto;
+    &-Title {
+        padding: 20px 0;
+        display: grid;
+        place-items: center;
+    }
+    &-Sections {
+        width: 100vw;
+        height: auto;
+        &-Title {
+            display: grid;
+            place-items: center;
+            padding: 50px 0;
+            background: url('../../assets/Mobile/myWorks_visualizationBG.png') center center no-repeat;
+            background-size: cover;
+        }
+    }
+}

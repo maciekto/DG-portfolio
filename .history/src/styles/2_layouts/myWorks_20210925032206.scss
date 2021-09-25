@@ -1,0 +1,66 @@
+.MyWorks {
+    width: 100vw;
+    height: auto;
+    &-Title {
+        font-size: $section;
+        padding: 30px 0;
+        display: grid;
+        place-items: center;
+        z-index: 2;
+        background: white;
+    }
+    &-Sections {
+        width: 100vw;
+        height: auto;
+        z-index: 2;
+        &-Title {
+            font-size: $section;
+            display: grid;
+            position: relative;
+            place-items: center;
+            padding: 30px 0;
+            background: url('../../assets/Mobile/myWorks_visualizationBG.png') center center no-repeat;
+            background-size: cover;
+            background-color: white;
+            &-Arrow {
+                transition: 0.4s;
+                position: absolute;
+                width: 20px;
+                bottom: 15px;
+                left: 50%;
+                transform: translateX(-50%) rotate(180deg);
+                &-Visualizations {
+                    &_off {
+                        transition: 0.4s;
+                        transform: translateX(-50%);
+                    }
+                }
+                
+            }
+        }
+        &-Works {
+            background: white;
+            margin-top: 10px;
+            transition: 0.4s;
+            height: 400px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-Visualizations, &-Banner {
+                &_off {
+                    transition: 0.4s;
+                    margin-top: 0px;
+                    height: 0px;
+                }
+            }
+            
+            & img {
+                transition: 0.4s;
+                padding: 20px 0;
+                z-index: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.Nav {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    font-size: $section;
+    top: 0;
+    left: 0;
+    background: rgba($color: #fff, $alpha: 0.8);
+    &-Line {
+        width: 120px;
+        height: 2px;
+        background: #000;
+    }
+}
