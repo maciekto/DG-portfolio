@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import nav_download from '../../assets/Mobile/nav_download.png';
 import nav_downloadPC from '../../assets/Desktop/nav_download.png';
+import CV from '../../assets/pdfs/CV.pdf';
 
 export default function Nav(props) {
     const [width, setWidth] = useState(window.innerWidth);
@@ -25,7 +26,7 @@ export default function Nav(props) {
                 Contact
             </a>
             <div className='Nav-Line'></div>
-            <a href=""className='Nav-Title'>
+            <a href={CV} className='Nav-Title'>
                 CV <img src={width > 1366 ? nav_downloadPC : nav_download} className='Nav-Title-Download'/>
             </a>
         </div>

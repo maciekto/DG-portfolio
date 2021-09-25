@@ -9,7 +9,7 @@
         font-size: $title;
         padding: 20px 0;
     }
-    & img {
+    & a {
         padding: 30px 0;
     }
     &-Desc {
@@ -34,7 +34,7 @@
             align-self: center;
             justify-self: center;
         }
-        & img {
+        & a {
             grid-row: 1/2;
             grid-column: 1/2;
             align-self: center;

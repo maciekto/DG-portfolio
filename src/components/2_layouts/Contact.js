@@ -15,7 +15,9 @@ export default function Contact() {
             <div className='Contact-Title'>
                 Contact
             </div>
-            <img src={width > 1366 ? contact_imgPC : contact_img}/>
+            <a href='https://www.linkedin.com/in/dominika-g%C5%82uszkowska-b90b43207/'>
+                <img src={width > 1366 ? contact_imgPC : contact_img}/>
+            </a>
             <div className='Contact-Desc'>
                 Contact with <br />
                 me through <br />
