@@ -1,0 +1,18 @@
+.AboutMe {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 35px;
+    background: url(../../assets/Mobile/aboutMe_background.png) center center no-repeat;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr 1fr;
+    &-Title {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: center;
+        justify-self: center;
+        
+        font-size: $section;
+    }
+}
