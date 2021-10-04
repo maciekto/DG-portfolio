@@ -4,7 +4,7 @@ import MyWorks_2 from '../../assets/Mobile/myWorks_2.png';
 import MyWorks_3 from '../../assets/Mobile/myWorks_3.png';
 import MyWorks_4 from '../../assets/Mobile/myWorks_4.png';
 import MyWorks_5 from '../../assets/Mobile/myWorks_5.png';
-import MyWorks_5_1 from '../../assets/Mobile/myWorks_5_1.png';
+import MyWorks_5_1 from '../../assets/Mobile/MyWorks_5_1.png';
 import MyWorks_6 from '../../assets/Mobile/myWorks_6.png';
 import MyWorks_7 from '../../assets/Mobile/myWorks_7.png';
 import MyWorks_8 from '../../assets/Mobile/myWorks_8.png';

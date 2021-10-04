@@ -4,7 +4,6 @@ import MyWorks_2 from '../../assets/Mobile/myWorks_2.png';
 import MyWorks_3 from '../../assets/Mobile/myWorks_3.png';
 import MyWorks_4 from '../../assets/Mobile/myWorks_4.png';
 import MyWorks_5 from '../../assets/Mobile/myWorks_5.png';
-import MyWorks_5_1 from '../../assets/Mobile/myWorks_5_1.png';
 import MyWorks_6 from '../../assets/Mobile/myWorks_6.png';
 import MyWorks_7 from '../../assets/Mobile/myWorks_7.png';
 import MyWorks_8 from '../../assets/Mobile/myWorks_8.png';
@@ -13,7 +12,6 @@ import MyWorks_2PC from '../../assets/Desktop/myWorks_2.png';
 import MyWorks_3PC from '../../assets/Desktop/myWorks_3.png';
 import MyWorks_4PC from '../../assets/Desktop/myWorks_4.png';
 import MyWorks_5PC from '../../assets/Desktop/myWorks_5.png';
-import MyWorks_5_1PC from '../../assets/Desktop/myWorks_5_1.png';
 import MyWorks_6PC from '../../assets/Desktop/myWorks_6.png';
 import MyWorks_7PC from '../../assets/Desktop/myWorks_7.png';
 import MyWorks_8PC from '../../assets/Desktop/myWorks_8.png';
@@ -126,7 +124,6 @@ export default function MyWorks() {
                     <img src={width > 1366 ? MyWorks_3PC : MyWorks_3} className={width > 1366 ? null : BannerImg}/>
                     <img src={width > 1366 ? MyWorks_4PC : MyWorks_4} className={width > 1366 ? null : BannerImg}/>
                     <img src={width > 1366 ? MyWorks_5PC : MyWorks_5} className={width > 1366 ? null : BannerImg}/>
-                    <img src={width > 1366 ? MyWorks_5_1PC : MyWorks_5_1} className={width > 1366 ? null : BannerImg}/>
                 </div>
                 {width > 1366 ? null : <div className='MyWorks-Sections-Title MyWorks-Sections-Title-Drawings' onClick={() => clickSection('Drawings')}>
                     Drawings
